@@ -3,7 +3,7 @@
 <html style="height: 100%; width: 100%;">
 
 <head>
-    <title>Example 08.08 - Load collada model </title>
+    <title>二道门</title>
     <script type="text/javascript" src="/ar/js/three.js"></script>
     <script type="text/javascript" src="/ar/js/ColladaLoader.js"></script>
 
@@ -26,7 +26,7 @@
 	function is_weixn_qq(){
 	var ua = navigator.userAgent.toLowerCase();
 	if(ua.match(/MicroMessenger/i)=="micromessenger") {
-		alert("weixin");
+		alert("Please open this page in your web browser(Chrome is recommended) and allow camera access.");
 		return "weixin";
 	} else if (ua.match(/QQ/i) == "qq") {
 		alert("Please open this page in your web browser(Chrome is recommended) and allow camera access.");
@@ -158,7 +158,7 @@
 	var artoolkitMarker = new THREEx.ArMarkerControls(arToolkitContext, markerRoot, {
 		type : 'pattern',
 		//patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro'
-		patternUrl : 'https://192.168.1.105/ar/qrtest.patt'
+		patternUrl : 'https://houwenda.github.io/arSecondGate/qrtest.patt'
 		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji'
 	})
 
