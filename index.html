@@ -31,10 +31,10 @@
 	function is_weixn_qq(){
 	var ua = navigator.userAgent.toLowerCase();
 	if(ua.match(/MicroMessenger/i)=="micromessenger") {
-		alert("Please open this page in your web browser(Chrome is recommended) and allow camera access.");
+		alert("请点击右上角，用浏览器打开（由于浏览器兼容差异，请尽量使用Chrome访问），并允许调用摄像头。");
 		return "weixin";
 	} else if (ua.match(/QQ/i) == "qq") {
-		alert("Please open this page in your web browser(Chrome is recommended) and allow camera access.");
+		alert("请点击右上角，用浏览器打开（由于浏览器兼容差异，请尽量使用Chrome访问），并允许调用摄像头。");
 		return "QQ";
     }
 		return false;
